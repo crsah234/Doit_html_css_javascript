@@ -28,6 +28,7 @@
 </header>
 
 <main>
+    <!-- 일반 테이블 -->
     <table >
         <caption>선물용과 가정용상품</caption>
         <!-- caption 표의 제목 위쪽 중앙에 표시 -->
@@ -63,6 +64,50 @@
         </tr>
     </table>
 
+
+<!-- thead, tbody, tfoot -->
+ <table>
+    <caption>선물용과 가정용 상품 구성</caption>
+    <thead>
+        <tr>
+            <th>용도</th>
+            <th>중량</th>
+            <th>개수</th>
+            <th>가격</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td rowspan=2>선물용</td>
+            <td>3kg</td>
+            <td>11~16과</td>
+            <td>35,000원</td>
+        </tr>
+        <tr>
+            <!-- <td>선물용</td> -->
+            <td>3kg</td>
+            <td>11~16과</td>
+            <td>35,000원</td>
+        </tr>
+        <tr>
+            <td rowspan=2>가정용</td>
+            <td>3kg</td>
+            <td>11~16과</td>
+            <td>35,000원</td>
+        </tr>
+        <tr>
+            <!-- <td>선물용</td> -->
+            <td>3kg</td>
+            <td rwspan="2">11~16과</td>
+            <td>35,000원</td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+            <th colspan="4">colspan=4 옆으로 함침</th>
+        </tr>
+    </tfoot>
+ </table>
 </main>
 
     </body>
