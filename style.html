@@ -1,0 +1,65 @@
+<html>
+
+<head>
+<style>
+    h1{
+        font-size:42px; /*글자 크기*/
+    }.accent{
+        font-size: 24px;
+        font-weight:900; /*글자 굵기*/
+    }italic{
+        font-weight:bold;
+        font-style: italic; /*글자 스타일*/
+    }
+    p{
+        line-height: 24px;
+    }.small-line{
+        line-height: 0.7; /*글자크기의 0.7배 줄 높이*/
+    }
+/* 텍스트 그림자 추가효과 */
+    .shadow1{
+        color : red;
+        text-shadow: 1px 1px black;/* 가로,세로거리, 색상지정 */
+    }
+    .shadow2{
+        text-shadow: 5px 5px 3px #ffa500; /*가로 세로거리, 번짐정도, 색상지정*/
+    }
+    .shadow3{
+        color: #fff;
+        text-shadow: 7px -7px 20px #000; /*가로 세로거리 번짐정도 색상 지정*/
+    }
+/* 목록 스타일 */
+.book1{
+    list-style-type: none;
+}
+.book2{
+    list-style-type: lower-latin;
+}
+.book3{
+    list-style-image: url(); /* 불릿대신 이미지 적용하기*/
+}
+
+/* 목록을 들여쓰는 list-style-position */
+.inside{
+    list-style-position: inside; /*outside*/
+}
+
+/* 목록 속성을 한꺼번에 표시하는 list-style 속성*/
+/*상기 리스트 스타일 값만 넣으면됨*/
+.list-style{
+    list-style: none;
+    list-style: upper-alpha;
+    list-style: lower-alpha inside;
+}
+</style>
+</head>
+<body>
+<p style="text-decoration: none;">none</p> <!--표시없음-->
+<p style="text-decoration: underline;">underline</p> <!--밑줄표시-->
+<p style="text-decoration: overline;">overline</p><!--윗줄표시-->
+<p style="text-decoration: line-through;">line-thorugh</p> <!-- 취소선 표시-->
+
+
+
+</body>
+</html>
