@@ -1,0 +1,62 @@
+<html>
+<head>
+    <Style>
+            h1{
+                /* 글자색 지정 0,0,255 -> 0,0,255,0.5 는 불투명도까지 */ 
+                color : rgb(0,0,255,0.2);
+                text-align : justify;
+                /* 
+                start : 기본값
+                end : 줄의 끝
+                left : 왼쪽
+                right : 오른쪽
+                center : 중앙
+                justify : 양쪽에 맞추어 정렬
+                match-parend : 부모요소에 따라 정렬
+                */
+                line-height : 120px;
+            }
+            h2{
+                /* 세로로 가운데 정렬하기 */
+                background : blue;
+                height : 100px;
+                text-align:center;
+                line-height : 100px;
+                
+                /* 텍스트에 밑줄표시하기 */
+                text-decoration:underline;
+                /* 
+                underline
+                overline
+                line-through
+                */
+                
+                /* 텍스트 그림자 추가하기 */
+                text-shadow: 1px 1px black; /* 가로 세로 번짐정도 색상*/
+
+                              
+                
+            }
+
+            .trans{
+                /* 텍스트 대소문자 변환하기 */
+                text-transform:capitalize;
+                /* 
+                capitalize : 첫번째 글자 대문자로
+                uppercase : 전체 대문자
+                lopwercase : 모두 소문자ㅣ
+                full-width : 가능한 한 모든 문자 전각문자로 변환
+                */
+
+                /* 글자 간격 조절 letter-spacing, word-spacing */
+                letter-spacing: 02.em; /*자간 조절*/
+                word-spacing: normal;/* 단어와 단어 사이*/
+            }
+    </Style>
+</head>
+<body>
+ <h1>나는 요 말이에요</h1>
+ <h2>나는 요 말이에요</h2>
+</body>
+
+</html>
